@@ -21,3 +21,9 @@
 - Initialize a counter with 1. Its odd value means Sereja's turn while even value means Dima's turn.
 - For each player's turn, find the larger number between the leftmost and the rightmost elements, add it to the player's points, and update the loop variables accordingly.
 - Print the points earned by both the players.
+
+[Q5 Two Arrays and Swaps](https://codeforces.com/problemset/problem/1353/B)
+
+- Sort 'a' in ascending order and 'b' in descending order.
+- Replace first k values of 'a' with first k values of 'b' until a's element is lesser than b's corresponding element.
+- Find sum of all elements of 'a' and print it.
