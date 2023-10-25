@@ -27,3 +27,20 @@
 - Sort 'a' in ascending order and 'b' in descending order.
 - Replace first k values of 'a' with first k values of 'b' until a's element is lesser than b's corresponding element.
 - Find sum of all elements of 'a' and print it.
+
+[Q6 Watermelon](https://codeforces.com/problemset/problem/4/A)
+
+- All even numbers are a sum of two even numbers (or two odd numbers), 2 being the exception. No odd number will be a sum of two even numbers.
+- Hence, print "YES" for all even numbers except 2 and "NO" for all other numbers.
+
+[Q7 Next Round](https://codeforces.com/problemset/problem/158/A)
+
+- As all scores are already written in descending order, we have to extract k-th participant's score, which is `array[k-1]`.
+- There will be more participants with `array[k-1]` score, therefore, we have to search for all participants in the whole array with score equal to or greater than this and return the count.
+- Exceptional case would be where k's score is 0, hence all socres are 0. This would satisfy the above condition. So handle it.
+
+[Q8 Number Replacement](https://codeforces.com/problemset/problem/1744/A)
+
+- Iterate through the array for each element, searching for a condition when at particular indices, the elements are equal but characters in the string at the corresponding indices are not.
+- If the condition is met, a counter is incremented.
+- At last if the counter is more than 0 then print "NO" otherwise print "YES".
