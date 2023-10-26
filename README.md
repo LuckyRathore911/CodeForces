@@ -44,3 +44,8 @@
 - Iterate through the array for each element, searching for a condition when at particular indices, the elements are equal but characters in the string at the corresponding indices are not.
 - If the condition is met, a counter is incremented.
 - At last if the counter is more than 0 then print "NO" otherwise print "YES".
+
+[Q9 Medium Number](https://codeforces.com/problemset/problem/1760/A)
+
+- Implement if-else statements.
+- See code for better comprehension.
