@@ -49,3 +49,9 @@
 
 - Implement if-else statements.
 - See code for better comprehension.
+
+[Q10 Equal Candies](https://codeforces.com/problemset/problem/1676/B)
+
+- Identify the minimum number of candies present in a box.
+- All boxes should have candies equal to this minimum number. Therefore, keep a record of how much candies should be remaining overall (min\*n).
+- Now the number of candies required to be eaten by me should be the difference of expected remaining candies and all candies present initially.
